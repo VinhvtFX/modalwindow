@@ -1,0 +1,61 @@
+body,
+html {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+.container {
+  position: relative;
+  background-color: #f0f0ce;
+  height: 100%;
+}
+/* Chỉnh modal */
+.modal {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.show {
+  background-color: aquamarine;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+.window {
+  display: none;
+  background-color: antiquewhite;
+  position: relative;
+  width: 40%;
+  height: 40%;
+  margin: 30px auto;
+  border: 1px solid green;
+  border-radius: 5px;
+  z-index: 2;
+}
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.tieude {
+  text-align: center;
+  padding: 20px;
+}
+.noidung {
+  margin: 20px 20px;
+}
+
+/* che phủ */
+.chephu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: hsla(135, 17%, 5%, 0.7);
+  z-index: 1;
+}
